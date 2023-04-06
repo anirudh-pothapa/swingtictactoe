@@ -91,7 +91,7 @@ public class tictacto implements ActionListener {
         {
             xwins(0, 1, 2);
 
-        } else if (buttons[3].getText() == "x" &&
+        } else if (buttons[3].getText() == "X" &&
                 buttons[4].getText() == "X" &&
                 buttons[5].getText() == "X") {
             xwins(3, 4, 5);
