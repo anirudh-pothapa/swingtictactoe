@@ -184,7 +184,7 @@ public class tictacto implements ActionListener {
         }
         if (random.nextInt(2) == 0) {
             player1_turn = true;
-            ltextfield.setText("O turn");
+            ltextfield.setText("X turn");
         } else {
             player1_turn = false;
             ltextfield.setText("O turn");
